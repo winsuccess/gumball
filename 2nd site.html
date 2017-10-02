@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<style>
+   @import url(https://fonts.googleapis.com/css?family=Acme);
+    @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+    body{
+    background: url(https://68.media.tumblr.com/dff2dd3e37be9af6d1040ddc331fb3d9/tumblr_onwzlhblsg1w9tlufo1_400.gif);
+    }
+    body:after {
+        content: "";
+        position: fixed;
+        top: 0; bottom: 0; left: 0; right: 0; 
+        background: hsla(180,0%,50%,0.25);
+        pointer-events: none;
+      }
+
+      .button{
+        position: fixed;
+          top: 520px;
+          right:515px;
+          width:230px;
+          
+          background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 18%, rgba(41,131,227,1) 52%, rgba(41,131,227,1) 65%, rgba(41,131,227,0.94) 90%);
+background: -webkit-gradient(left top, right top, color-stop(18%, rgba(73,155,234,1)), color-stop(52%, rgba(41,131,227,1)), color-stop(65%, rgba(41,131,227,1)), color-stop(90%, rgba(41,131,227,0.94)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 18%, rgba(41,131,227,1) 52%, rgba(41,131,227,1) 65%, rgba(41,131,227,0.94) 90%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 18%, rgba(41,131,227,1) 52%, rgba(41,131,227,1) 65%, rgba(41,131,227,0.94) 90%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 18%, rgba(41,131,227,1) 52%, rgba(41,131,227,1) 65%, rgba(41,131,227,0.94) 90%);
+background: linear-gradient(to right, rgba(73,155,234,1) 18%, rgba(41,131,227,1) 52%, rgba(41,131,227,1) 65%, rgba(41,131,227,0.94) 90%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#2983e3', GradientType=1 );
+          font-size: 30px;
+          border-radius: 15px;
+          border: 1px solid gray;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          display: inline-block;
+          cursor: pointer;
+          transition: all 0.5s;
+        transition-duration: 0.4s;
+        color:aliceblue;
+        padding-bottom: 3px;
+        }
+    .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+        .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+div{ 
+           font-size: 40px;
+          font-weight: 800;
+          font-family: Inconsolata; 
+          color:aliceblue;
+          margin-top:-2px;
+          margin-bottom: -1px;
+
+}
+.let{
+  margin: -7px -5px -7px -5px;
+}
+ h1{
+  position: fixed;
+  top: 150px; bottom:0; left: 400px; right:0;
+  margin: auto;      
+ }
+ a{
+    color: white !important;
+}
+ #header{
+   background-color: rgba(23, 23, 26, 0.79);
+   margin: -8px 0px -5px 0px;
+   padding: 7px 0px 0px 25px;
+ }
+
+ #title{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,"AppleGothic", sans-serif;
+  text-align: center;
+  margin: 4px;
+  font-size: 37px;
+  margin-left: 5px;
+  letter-spacing: 6px;
+  color:#F8F7F5;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+ }
+ .deepshadow {
+  color: #e0dfdc;
+  background-color: rgba(23, 23, 26, 0.79);
+  letter-spacing: .1em;
+  text-shadow: 
+    0 -1px 0 #fff, 
+    0 1px 0 #2e2e2e, 
+    0 2px 0 #2c2c2c, 
+    0 3px 0 #2a2a2a, 
+    0 4px 0 #282828, 
+    0 5px 0 #262626, 
+    0 6px 0 #242424, 
+    0 7px 0 #222, 
+    0 8px 0 #202020, 
+    0 9px 0 #1e1e1e, 
+    0 10px 0 #1c1c1c, 
+    0 11px 0 #1a1a1a, 
+    0 12px 0 #181818, 
+    0 13px 0 #161616, 
+    0 14px 0 #141414, 
+    0 15px 0 #121212, 
+    0 22px 30px rgba(0, 0, 0, 1);
+}
+ #channel{
+   font-size:22px;
+   text-align: center;
+   font-family: Alegreya Sans SC;
+   margin-top: 2px;
+ }
+ 
+ .logo:hover{
+   transform: translate(-8px,5px);
+   box-shadow: 0 5px 5px rgba(161, 161, 161, 0.5);
+ }
+  .logo1{
+    background: #3b5998;
+    width: 28px;
+    display: block;
+    margin: 12px;
+    transition: 0.5s;
+    text-align: center;
+    padding: 3px 10px 3px 7px;
+
+ }
+ .logo2{
+  background: #ff0000;
+    width: 35px;
+    height: 29px;
+    display: block;
+    margin: 14px;
+    transition: 0.5s;
+    text-align: center;
+    padding: 1px 0px 0px 0px;
+    border-radius: 4px;
+
+  }
+  .logo3{
+    margin: 14px;
+    transition: 0.5s;
+    text-align: center;
+  }
+  #vid {
+    top: 510px;
+    left: 403px;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    background-color: black;
+    display:none;
+}
+
+</style>
+
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css";
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("button").click(function () {
+      $("#button").toggle();  
+      $("#vid").toggle();
+      $("#vid")[0].play();
+      });
+ 
+        $("#vid").on("ended", function(){
+          setTimeout(function(){
+         $("#vid").hide();
+         $("#button").show();
+        }, 1000);  
+        });
+  });
+    </script>
+
+</head>
+
+<body>
+    <header>
+      <div id="header">
+          <div class="container-fluid">
+   <div class="row">
+        <div class="col-xs-3">
+          <p id="title" class="deepshadow">TAWOGVNFC </p></div> 
+          <div class="col-xs-3 logo" id="channel"><a href="https://www.facebook.com/TAWOGVNFC/" target="_blank"><i class="fa fa-facebook logo logo1" aria-hidden="true" style="font-size: 23px"></i>Facebook Fanpage</a></div>
+          <div class="col-xs-3 logo" id="channel"><a href="https://www.youtube.com/channel/UCIQ2D5srBvF00XTCGeIfLsw" target="_blank"><i class="fa fa-youtube-play logo logo2" aria-hidden="true" style="font-size: 23px"></i> Youtube Channel</a></div>
+     <div class="col-xs-3 logo" id="channel"><a href="http://www.dailymotion.com/liamcourt2101" target="_blank"><img src="https://www.drupal.org/files/styles/grid-3/public/project-images/dailymotion.png?itok=GlwgYlXV" class="logo logo3" alt="" width="31px">Dailymotion Channel</a></div>
+
+        </div> 
+      </div>
+    </div>  
+      </header>
+    <h1><img src="http://data.whicdn.com/images/298367223/original.png" alt=""></h1>
+    <video id="vid" width="500" height="300">
+        <source src="zz.mp4" type="video/mp4">
+      </video>
+    <button class="button" id="button" style="vertical-align:middle"><span>
+            <div class="let"> Let's a go! </div>       
+        </span>    </button>
+        
+        </a>
+</body>
+
+</html>
